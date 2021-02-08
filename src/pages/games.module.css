@@ -1,0 +1,72 @@
+h2 {
+  margin-bottom: 0;
+}
+
+/* flex関連 */
+
+.container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+/* カード関連 */
+
+.card {
+  width: 450px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  margin: 20px;
+}
+.cardImg {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.cardContent {
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+.cardBorder {
+  border-top: 1px solid #eee;
+  margin: 10px;
+}
+.cardTitle {
+  font-size: 20px;
+  margin-top: auto;
+  text-align: center;
+  color: #333;
+}
+.cardSubTitle {
+  font-size: 16px;
+  margin-top: auto;
+  text-align: center;
+  color: #333;
+}
+.cardText {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 5px 20px;
+}
+.cardSubText {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 5px 20px;
+  text-align: center;
+}
+.cardLink {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+.cardLink a {
+  text-decoration: none;
+  color: #0bd;
+  margin: 0 10px;
+}
+.cardLink a:hover {
+  color: #0090aa;
+}

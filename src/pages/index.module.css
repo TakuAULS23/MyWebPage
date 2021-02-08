@@ -1,0 +1,47 @@
+.main {
+  text-align: left;
+}
+
+/* カード関連 */
+
+.card {
+  width: 350px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  margin: 20px;
+}
+.cardImg {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.cardContent {
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+.cardTitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+.cardText {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.cardLink {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+.cardLink a {
+  text-decoration: none;
+  color: #0bd;
+  margin: 0 10px;
+}
+.cardLink a:hover {
+  color: #0090aa;
+}

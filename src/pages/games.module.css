@@ -1,28 +1,35 @@
-h2 {
-  margin-bottom: 0;
-}
 
 /* flex関連 */
 
 .container {
   display: flex;
   flex-flow: wrap;
+  justify-content: space-around;
 }
 
 /* カード関連 */
 
 .card {
-  width: 450px;
+  flex-basis: 80%;
+  min-width: 0;
+  max-width: 700px;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
   margin: 20px;
+  padding: 5px 0;
 }
+@media screen and (min-width:480px) {
+  .card {
+    flex-basis: 45%;
+    min-width: 400px;
+  }
+}
+
 .cardImg {
-  border-radius: 5px 5px 0 0;
-  max-width: 100%;
+  padding: 0 5%;
+  width: 90%;
   height: auto;
-  text-align: center;
 }
 .cardContent {
   padding: 20px;

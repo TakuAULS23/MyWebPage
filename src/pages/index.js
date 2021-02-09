@@ -28,6 +28,7 @@ const Card = ({ image }) => {
         <Link to='https://github.com/TakuAULS23' target="_blank">GitHub</Link>
       </div>
       <div className={styles.cardContent}>
+        <p className={styles.center}>プロフィール</p>
         <table className={styles.cardText}>
           <tr>
             <td>名前：</td>
@@ -35,11 +36,12 @@ const Card = ({ image }) => {
           </tr>
           <tr>
             <td>最近の趣味：</td>
-            <td>SDVX,DDR,クレーンゲーム,<br />リアル脱出ゲーム</td>
+            <td>SDVX,DDR,クレーンゲーム,リアル脱出ゲーム</td>
           </tr>
         </table>
       </div>
       <div className={styles.cardContent}>
+        <p className={styles.center}>サイトマップ</p>
         <p className={styles.cardText}>
           <b><Link to='/uchinoko'>うちのこ紹介</Link>：うちのこの紹介です。</b>
         </p>

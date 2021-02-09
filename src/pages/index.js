@@ -57,7 +57,7 @@ export const query = graphql
 `{
   pudding: file(relativePath: { eq: "gaming_pudding.png" }) {
     childImageSharp {
-      fixed(width: 300) {
+      fixed(width: 200) {
         ...GatsbyImageSharpFixed
     }
     }

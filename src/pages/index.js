@@ -22,11 +22,30 @@ const Card = ({ image }) => {
       <div className={styles.cardImg}>
         <Img fixed={image} alt='げーみんぐぷりん' />
       </div>
+      
       <div className={styles.cardLink}>
         <Link to='https://twitter.com/takuAULS' target="_blank">Twitter</Link>
         <Link to='https://www.pixiv.net/users/2941251' target="_blank">Pixiv</Link>
         <Link to='https://github.com/TakuAULS23' target="_blank">GitHub</Link>
       </div>
+
+      <div className={styles.cardContent}>
+        <table className={styles.cardText}>
+          <tr>
+            <td><b><Link to='/uchinoko'>うちのこ紹介</Link></b></td>
+            <td><b>：うちのこの紹介です。</b></td>
+          </tr>
+          <tr>
+            <td><b><Link to='/everydaygame'>うちのこの日常</Link></b></td>
+            <td><b>：うちのこの日常を見ることができます。</b></td>
+          </tr>
+          <tr>
+            <td><b><Link to='/games'>作ったゲーム</Link></b></td>
+            <td><b>：作ったゲームの紹介です。</b></td>
+          </tr>
+        </table>
+      </div>
+
       <div className={styles.cardContent}>
         <p className={styles.center}>プロフィール</p>
         <table className={styles.cardText}>
@@ -35,20 +54,12 @@ const Card = ({ image }) => {
             <td>タク</td>
           </tr>
           <tr>
-            <td>最近の趣味：</td>
-            <td>SDVX,DDR,クレーンゲーム,リアル脱出ゲーム</td>
+            <td>趣味：</td>
+            <td>お絵描き/音ゲー/ボードゲーム/リアル脱出ゲーム</td>
           </tr>
         </table>
       </div>
-      <div className={styles.cardContent}>
-        <p className={styles.center}>サイトマップ</p>
-        <p className={styles.cardText}>
-          <b><Link to='/uchinoko'>うちのこ紹介</Link>：うちのこの紹介です。</b>
-        </p>
-        <p className={styles.cardText}>
-        <b><Link to='/games'>作ったゲーム</Link>：作ったゲームの紹介です。</b>
-        </p>
-      </div>
+
     </section>
   );
 }

@@ -14,6 +14,9 @@ const Header = () => {
             <Link className={styles.link} to='/uchinoko'>うちのこ紹介</Link>
           </li>
           <li>
+            <Link className={styles.link} to='/everydaygame'>うちのこの日常</Link>
+          </li>
+          <li>
             <Link className={styles.link} to='/games'>作ったゲーム</Link>
           </li>
         </ul>
